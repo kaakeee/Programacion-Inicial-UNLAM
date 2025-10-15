@@ -14,3 +14,4 @@ Unidad 2 Estructura Secuencial (Se pasaron los ejercicios directamente a C)
 Unidad 3 Codificacion a C, por lo cual no existe y se realiza en la unidad 2 directamente (variables, constantes, float, int, etc...)
 Unidad 4 Estructura de Decisión (if else)
 Unidad 5 Estructura de Iteración o Repetición (While y FOR)
+Unidad 6 Funciones
