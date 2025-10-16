@@ -180,15 +180,15 @@ int restaNDia(int dia, int mes, int anio, int n){
     af = anio; //2000
     
     do {
-        if (df < 1){ // -99 == 0
-            mf--;
-            if (mf == 0){
-                mf = 12;
-                af--;
+        if (df < 1){ // -99 < 1 si
+            mf--;   // 1 - 1 = 0
+            if (mf == 0){  // es 0, verdadero
+                mf = 12;   // cambiamos a 12
+                af--;       // bajamos año
             }
-            df = CantDiasMes(mf, af);
+            df = df + CantDiasMes(mf, af);  // -99 + dias del mes, 30
         }
-    } while (mf != 13);
+    } while (df < 1);
     
 printf("\n%d/%d/%d menos un dia es: %d/%d/%d\n", dia, mes, anio, df, mf, af);
     return 0;
