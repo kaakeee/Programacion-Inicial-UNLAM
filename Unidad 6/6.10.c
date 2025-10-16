@@ -15,7 +15,6 @@
 int esFechaVal(int dia, int mes, int anio);
 int CantDiasMes(int m, int a);
 int esBisiesto(int a);
-int calcularDia(int dia, int mes, int anio, int numero);
 int mostrarMenuValorElegido();
 int sumaDia(int dia, int mes, int anio);
 int restaDia(int dia, int mes, int anio);
