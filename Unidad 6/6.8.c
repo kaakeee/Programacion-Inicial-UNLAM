@@ -1,6 +1,4 @@
-//
 //  6.8.c
-//  
 //
 //  Created by Ramiro Nehuen Sanabria on 16/10/2025.
 //6.8. Realizar un programa que ingrese la fecha actual y la fecha de nacimiento de una persona y calcule su edad. Las fechas deben ser validadas con una función. Para el cálculo de la edad realizar una función que reciba las dos fechas y retorne la edad de la persona.
@@ -55,9 +53,7 @@ int main (){
         printf("Desea continuar? '1' para si, '0' para salir.");
         printf("\n------------------------------------------------\n");
         scanf("%d", &dia); //si, reutilizamos una variable jeje
-        
     }while(dia == 1);
-    
     return 0;
 }
 
@@ -67,7 +63,6 @@ if (anio > 1600)
     if (mes >= 1 && mes <= 12)
         if (dia >= 1 && dia <= CantDiasMes(mes, anio))
             return 1;
-    
     return 0; //si la fecha esta mal vuelve a pedir
 }
 
@@ -91,15 +86,10 @@ int esBisiesto(int a){
     return bis;
 }
 
-
 int edadPersona(int dia,int mes,int anio,int dia_na,int mes_na,int anio_na){
     int edad;
-    
-    
     // 15/11/2025   nacimiento na 1/10/2000
-    
     edad = anio - anio_na; //quedaria 2025
-    
     if (mes < mes_na) {   //compara mes 11 vs 10/ es falso, por lo que NO resta edad
         edad--;
     } else if (mes == mes_na) {
@@ -107,7 +97,6 @@ int edadPersona(int dia,int mes,int anio,int dia_na,int mes_na,int anio_na){
             edad--;
         }
     }
-    
     return edad;
 }
 
