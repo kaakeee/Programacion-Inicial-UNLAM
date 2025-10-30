@@ -42,8 +42,9 @@ int main(){
     /*B*/int Vec_D[STORAGE];
     copiarVecInverso(Vec_A, Vec_D, STORAGE);
     //d) Copiar VecA en orden inverso en otro vector llamado VecD.
+    posicionesPar(Vec_A, STORAGE);
+    //f) Informar las posiciones de elementos pares del vector VecA.
 
-    
     return 0;
 }
 
@@ -110,19 +111,7 @@ void cargaVec(int vec[], int size){
 
 
 
-/////sumar vectores
 
-//void for (0, ce-1,1){
-  //  v3[i] = v1[i] + v2[i];
-//}
-
-//void invierteVec(int v1[], int v2[], int ce)
-//pos = ce - 1;
-//for (i = 0, ce-1, i++){
-//    v2[pos] = v1[i];
-//    pos--;
-//}
-//
 //
 //
 //
