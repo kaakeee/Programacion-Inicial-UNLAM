@@ -79,6 +79,4 @@ int LeerYValidar ()
 
 
 
-5 variables
 
-ingrese numeros entre 100 y 2000

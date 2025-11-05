@@ -3,11 +3,7 @@
 //  
 //
 //  Created by Ramiro Nehuen Sanabria on 03/09/2025.
-/* 5.1.2 Confeccionar un programa que pueda ingresar una secuencia de caracteres hasta que se
- digite un ‘*’. Se desea obtener e informar cuantos caracteres ingresados son numéricos
- y cuantos alfabéticos. Estos últimos tienen que mostrarse separados por mayúsculas y
- minúsculas. También informar la cantidad de otros símbolos que no sean ni letras ni
- números. */
+/* 5.1.2 Confeccionar un programa que pueda ingresar una secuencia de caracteres hasta que se digite un ‘*’. Se desea obtener e informar cuantos caracteres ingresados son numéricos y cuantos alfabéticos. Estos últimos tienen que mostrarse separados por mayúsculas y minúsculas. También informar la cantidad de otros símbolos que no sean ni letras ni números. */
 #include <stdio.h>
 #include <ctype.h>
 
