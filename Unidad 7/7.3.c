@@ -15,6 +15,7 @@
 #define CantEmpleados 50
 void cargarSueldos(int Sueldos[], int Cant);
 int cargarLegajos(int Legajos[], int Cant);
+
 int main (){
     int Sueldos[CantEmpleados];
     int dato = 1, i, maximo;
@@ -51,8 +52,8 @@ int cargarLegajos(int Legajos[], int Cant){
         scanf("%d", &dato);
         
         if (dato != 0){
-            if (dato < 0){printf("Ingrese un numero de legajo valido.");}else{
-                
+            if (dato < 0){printf("Ingrese un numero de legajo valido.");}
+                else {
                 Legajos[i] = dato;
                 printf("Se cargo el legajo numero: %d", i+1);
                 i++;
